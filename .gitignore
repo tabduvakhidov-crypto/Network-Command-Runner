@@ -1,0 +1,51 @@
+# ==============================================================================
+# Git Ignore - Network Command Runner
+# ==============================================================================
+
+# Credentials & Passwords (CRITICAL - DO NOT COMMIT SENSITIVE PASSWORDS)
+credentials.json
+*.pem
+*.key
+.env
+*.cred
+
+# Reports & Device Execution Output
+reports/
+device_logs/
+*.csv
+*.log
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+

@@ -1,0 +1,15 @@
+{
+  "device_type": "cisco_ios",
+  "commands": [
+    "crypto key generate rsa modulus 2048",
+    "ip ssh version 2"
+  ],
+  "save_config": true,
+  "save_command": "write memory",
+  "max_workers": 10,
+  "connect_timeout": 20,
+  "banner_timeout": 30,
+  "auth_timeout": 30,
+  "global_delay_factor": 1.0,
+  "preflight_port_check": true
+}
